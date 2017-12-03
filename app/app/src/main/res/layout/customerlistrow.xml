@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/userListRegistrationNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".333333"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="0dp"
+        android:paddingEnd="0dp"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/userListPAC"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".333333"
+        android:gravity="center_vertical"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingEnd="0dp"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/userListName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".333333"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/userListBalance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".333333"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"/>
+
+</LinearLayout>

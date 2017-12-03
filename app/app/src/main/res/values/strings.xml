@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SIB</string>
+    <string name="user_login">User Login</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="user_register">User Register</string>
+    <string name="employee_login">Employee Login</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="transaction">Transaction</string>
+    <string name="deposit">Deposit</string>
+    <string name="transactionHistory">Transaction History</string>
+    <string name="changeName">Change Name</string>
+    <string name="deleteAccount">Delete Account</string>
+    <string name="logout">Logout</string>
+    <string name="transfer">Transfer</string>
+    <string name="transactions">Transactions</string>
+    <string name="password">Password</string>
+    <string name="employeeNo">EmployeeNo</string>
+    <string name="receiver">Receiver</string>
+    <string name="sender">Sender</string>
+    <string name="amount">Amount</string>
+    <string name="registrationNo">registrationNo</string>
+    <string name="userList">User List</string>
+    <string name="resetPAC">Reset PAC</string>
+    <string name="PAC">PAC</string>
+    <string name="copyright">Szymon Bialkowski©</string>
+</resources>

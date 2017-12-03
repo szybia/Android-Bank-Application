@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lewandowski.bank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".user_login">
+        </activity>
+        <activity android:name=".user_register">
+        </activity>
+        <activity android:name=".user_home">
+        </activity>
+        <activity android:name=".user_home_transaction">
+        </activity>
+        <activity android:name=".user_home_deposit">
+        </activity>
+        <activity android:name=".user_home_transaction_history">
+        </activity>
+        <activity android:name=".user_home_change_name">
+        </activity>
+        <activity android:name=".user_home_delete_account">
+        </activity>
+        <activity android:name=".employee_login">
+        </activity>
+        <activity android:name=".employee_home">
+        </activity>
+        <activity android:name=".employee_home_transaction">
+        </activity>
+        <activity android:name=".employee_home_deposit">
+        </activity>
+        <activity android:name=".employee_home_user_list">
+        </activity>
+        <activity android:name=".employee_home_delete">
+        </activity>
+        <activity android:name=".employee_home_resetpac">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/main_page_gradient">
+
+    <TextView
+        android:id="@+id/home_sib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="@string/transaction"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user_transaction_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#1e7888"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="@string/receiver"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textColorHint="#88ffffff"
+        android:textCursorDrawable="@drawable/blinking_cursor_colour" />
+
+    <EditText
+        android:id="@+id/user_transaction_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#1e7888"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="@string/amount"
+        android:inputType="number|numberDecimal"
+        android:textColor="#fff"
+        android:textColorHint="#88ffffff"
+        android:textCursorDrawable="@drawable/blinking_cursor_colour" />
+
+    <Button
+        android:id="@+id/user_transaction_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_transaction_amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/login_page_buttons"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/transfer"
+        android:textSize="17sp" />
+</RelativeLayout>
